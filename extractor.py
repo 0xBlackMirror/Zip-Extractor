@@ -21,7 +21,7 @@ def Main():
 				zipfiles.append(file)
 	eInput = input('Would you like to extract all the zip files in this directory? (y/n)')
 	if eInput == 'y':
-	    extract_files(zipfiles)
+		extract_files(zipfiles)
 	else:
 		print('[-] Closing Program.')
 		exit(0)
